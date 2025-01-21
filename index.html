@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Table</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
+    "
+    />
+  </head>
+  <body class="dark-mode">
+    <div class="theme-toggle" id="theme-toggle">Dark mode</div>
+    <div class="container">
+      <h1>Most Active Users</h1>
+      <!--Loader-->
+      <div class="spinner" id="spinner" hidden>
+        <i class="fa-solid fa-cog fa-spin"></i>
+      </div>
+      <!--Table-->
+      <table id="data-table">
+        <thead>
+          <tr>
+            <th class="name-col">
+              Name <i class="fa-solid fa-sort" id="icon-0"></i>
+            </th>
+            <th class="email-col">
+              Email <i class="fa-solid fa-sort" id="icon-1"></i>
+            </th>
+            <th class="username-col">
+              Username <i class="fa-solid fa-sort" id="icon-2"></i>
+            </th>
+            <th class="country-col">
+              Country <i class="fa-solid fa-sort" id="icon-3"></i>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+          <tr>
+            <td data-lable="Name">Name Here</td>
+            <td data-lable="Email">Email Here</td>
+            <td data-lable="Username">Username Here</td>
+            <td data-lable="Country">Country Here</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="pagin">
+        <button type="button" id="prev-btn" title="Previous Page" disabled>
+          <i class="fa-solid fa-circle-chevron-left"></i>
+        </button>
+        <span id="page-num">1</span>
+        <button type="button" id="next-btn" title="Previous Page">
+          <i class="fa-solid fa-circle-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+    <script src="App.js"></script>
+  </body>
+</html>
