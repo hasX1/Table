@@ -11,12 +11,12 @@
     "
     />
   </head>
-  <body class="dark-mode">
+  <body>
     <div class="theme-toggle" id="theme-toggle">Dark mode</div>
     <div class="container">
       <h1>Most Active Users</h1>
       <!--Loader-->
-      <div class="spinner" id="spinner" hidden>
+      <div class="spinner" id="spinner" style="display: none">
         <i class="fa-solid fa-cog fa-spin"></i>
       </div>
       <!--Table-->
@@ -37,76 +37,9 @@
             </th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-          <tr>
-            <td data-lable="Name">Name Here</td>
-            <td data-lable="Email">Email Here</td>
-            <td data-lable="Username">Username Here</td>
-            <td data-lable="Country">Country Here</td>
-          </tr>
-        </tbody>
+        <tbody id="table-body"></tbody>
       </table>
-      <div class="pagin">
+      <div id="pagin" class="pagin" style="display: none">
         <button type="button" id="prev-btn" title="Previous Page" disabled>
           <i class="fa-solid fa-circle-chevron-left"></i>
         </button>
