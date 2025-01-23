@@ -127,6 +127,7 @@ tr:last-child {
 .pagin {
   text-align: center;
   height: 55px;
+  display: block;
 }
 
 .pagin button {
